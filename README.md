@@ -22,7 +22,10 @@ Real-time Vehicle Lookup: Uses a Node.js backend to securely query the DVLA data
 
 ## 🏗️ Architecture & Security
 
-To interact with the DVLA API, this project utilizes a Backend Proxy. This is a critical design choice that:Hides API Keys: Prevents the DVLA x-api-key from being exposed in the browser's "Network" tab.Resolves CORS: Bypasses "Cross-Origin Resource Sharing" restrictions that would otherwise block the browser from contacting the government's API directly.
+To interact with the DVLA API, this project utilizes a Backend Proxy. This is a critical design choice that:
+
+* Hides API Keys: Prevents the DVLA x-api-key from being exposed in the browser's "Network" tab.
+* Resolves CORS: Bypasses "Cross-Origin Resource Sharing" restrictions that would otherwise block the browser from contacting the government's API directly.
 
 
 ## 🚀 Setup & Installation
